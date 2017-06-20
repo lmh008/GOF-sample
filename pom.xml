@@ -12,6 +12,14 @@
         <module>abstract-factory-v2</module>
         <module>strategy</module>
         <module>decorator</module>
+        <module>proxy</module>
+        <module>dynamic-proxy</module>
+        <module>template-method</module>
+        <module>facade</module>
+        <module>builder</module>
+        <module>observer</module>
+        <module>state</module>
+        <module>adapter</module>
     </modules>
     <packaging>pom</packaging>
 
