@@ -5,14 +5,17 @@ package com.github;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/19.
  * Version v1.0
+ * <p>
+ * Decorator
+ * —维持一个指向Component对象的指针，并定义一个与Component接口一致的接口。
  */
-public abstract class CarDecorator implements Car{
+public abstract class CarDecorator implements Car {
 
     protected Car car;
 
     @Override
     public void run() {
-        if(car != null){
+        if (car != null) {
             car.run();
         }
     }

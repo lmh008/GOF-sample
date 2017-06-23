@@ -8,6 +8,8 @@ import java.util.List;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/22.
  * Version v1.0
+ *
+ * — 要求该命令执行这个请求。
  */
 public class Invoker {
 

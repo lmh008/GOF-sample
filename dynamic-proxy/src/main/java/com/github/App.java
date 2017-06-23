@@ -2,6 +2,9 @@ package com.github;
 
 import java.lang.reflect.Proxy;
 
+/**
+ * 动态代理
+ */
 public class App
 {
     public static void main( String[] args )

@@ -7,16 +7,14 @@ package com.github;
  * Version v1.0
  * 对象收到其他对象的请求时
  * 它根据自身的当前状态作出不同的反应
+ *
+ * Context(环境，如TCPConnection)
+ * —定义客户感兴趣的接口。
+ * —维护一个ConcreteState子类的实例(这里的tcpState)，这个实例定义当前状态
  */
 public class TCPConnect {
 
     private TCPState tcpState;
-
-    private TCPState intiState;
-
-    private TCPState establishedState;
-
-    private TCPState closedState;
 
     public TCPConnect() {
         this.tcpState = new InitState();

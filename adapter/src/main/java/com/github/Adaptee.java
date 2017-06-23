@@ -5,6 +5,7 @@ package com.github;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/20.
  * Version v1.0
+ * 需要适配的类
  */
 public class Adaptee {
 

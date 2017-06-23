@@ -7,6 +7,9 @@ import java.security.NoSuchAlgorithmException;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/19.
  * Version v1.0
+ *
+ * Strategy(策略，如Compositor)
+ * —定义所有支持的算法的公共接口。Context使用这个接口来调用某ConcreteStrategy定义的算法。
  */
 public abstract class EncryptionStrategy {
 

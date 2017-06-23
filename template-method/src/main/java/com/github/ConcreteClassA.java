@@ -5,6 +5,9 @@ package com.github;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/20.
  * Version v1.0
+ *
+ * ConcreteClass（具体类，如MyApplication）
+ * — 实现原语操作以完成算法中与特定子类相关的步骤。
  */
 public class ConcreteClassA extends AbstratTemplate{
 

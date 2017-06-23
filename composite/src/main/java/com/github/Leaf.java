@@ -7,6 +7,9 @@ import java.util.Arrays;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/22.
  * Version v1.0
+ *
+ * —在组合中表示叶节点对象，叶节点没有子节点。
+ * —在组合中定义图元对象的行为。
  */
 public class Leaf implements Component {
 

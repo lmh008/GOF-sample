@@ -7,6 +7,11 @@ import java.security.NoSuchAlgorithmException;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/19.
  * Version v1.0
+ *
+ * Context(上下文，如Composition)
+ * — 用一个ConcreteStrategy对象来配置。
+ * — 维护一个对Strategy对象的引用。
+ * — 可定义一个接口来让Stategy访问它的数据。
  */
 public class Context {
 
