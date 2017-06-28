@@ -5,6 +5,7 @@ package com.github;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/23.
  * Version v1.0
+ * 对于Colleagueclass不需要知道其他Colleagueclass，只需要知道中介
  */
 public class MobileChater implements Chater {
 
