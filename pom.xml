@@ -28,9 +28,7 @@
         <module>chain-of-responsibility</module>
         <module>mediator</module>
         <module>flyweight</module>
-        <module>interpreter</module>
         <module>visitor</module>
-        <module>interpreter</module>
     </modules>
     <packaging>pom</packaging>
 
