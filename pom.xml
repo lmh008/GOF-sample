@@ -30,6 +30,7 @@
         <module>flyweight</module>
         <module>visitor</module>
         <module>prototype</module>
+        <module>builder-v2</module>
     </modules>
     <packaging>pom</packaging>
 
