@@ -17,6 +17,6 @@ public interface BuildingBuilder {
 
     void buildWall();
 
-    void decoration();
+    Building getResult();
 
 }

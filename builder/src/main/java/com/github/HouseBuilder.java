@@ -5,30 +5,38 @@ package com.github;
  * Author jirenhe@wanshifu.com
  * Time 2017/6/20.
  * Version v1.0
- *
+ * <p>
  * ConcreteBuilder
  * —实现Builder的接口以构造和装配该产品的各个部件。—定义并明确它所创建的表示
  * —提供一个检索产品的接口。
  */
-public class HouseBuilder implements BuildingBuilder{
+public class HouseBuilder implements BuildingBuilder {
+
+    private Building building;
+
+    public HouseBuilder() {
+        this.building = new Building();
+    }
 
     @Override
     public void buildBase() {
-        System.out.println("house build base");
+        building.setBase("deep 20m");
     }
 
     @Override
     public void buildFrame() {
-        System.out.println("house build frame");
+        building.setFrame("stable frame");
     }
 
     @Override
     public void buildWall() {
-        System.out.println("house build wall");
+        building.setWall("high : 6m width : 20m");
     }
 
     @Override
-    public void decoration() {
-        System.out.println("house decoration");
+    public Building getResult() {
+        return building;
     }
+
+
 }

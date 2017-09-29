@@ -10,9 +10,12 @@ package com.github;
 public class App {
 
     public static void main(String[] args) {
-        BuildDirector houseBuildDirector = new BuildDirector(new HouseBuilder());
-        BuildDirector MansionBuildDirector = new BuildDirector(new MansionBuilder());
-        houseBuildDirector.build();
-        MansionBuildDirector.build();
+        BuildDirector buildDirector = new BuildDirector();
+        BuildingBuilder houseBuilder = new HouseBuilder();
+        BuildingBuilder mansionBuilder = new MansionBuilder();
+        buildDirector.build(houseBuilder);
+        buildDirector.build(mansionBuilder);
+        System.out.println(houseBuilder.getResult());
+        System.out.println(mansionBuilder.getResult());
     }
 }

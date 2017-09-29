@@ -10,16 +10,9 @@ package com.github;
  */
 public class BuildDirector {
 
-    private BuildingBuilder buildingBuilder;
-
-    public BuildDirector(BuildingBuilder buildingBuilder) {
-        this.buildingBuilder = buildingBuilder;
-    }
-
-    public void build(){
-        this.buildingBuilder.buildBase();
-        this.buildingBuilder.buildFrame();
-        this.buildingBuilder.buildWall();
-        this.buildingBuilder.decoration();
+    public void build(BuildingBuilder buildingBuilder){
+        buildingBuilder.buildBase();
+        buildingBuilder.buildFrame();
+        buildingBuilder.buildWall();
     }
 }
